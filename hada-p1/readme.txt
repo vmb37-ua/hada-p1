@@ -1,1 +1,0 @@
-﻿Víctor Mingorance Boix
