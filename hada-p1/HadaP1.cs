@@ -12,7 +12,7 @@ namespace hada_p1
     internal class HadaP1
     {
         /// <summary>
-        /// Función de conversión de segundos a minutos.
+        /// Función de conversión de segundos a minutos. (Recibe parámetro real en segundos)
         /// </summary>
         /// <param name="s"></param>
         /// <returns></returns>
@@ -22,7 +22,7 @@ namespace hada_p1
         }
 
         /// <summary>
-        /// Función de conversión de minutos a segundos.
+        /// Función de conversión de minutos a segundos. (Recibe parámetro real en minutos)
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
