@@ -15,7 +15,7 @@ namespace hada_p1
 
             do
             {
-                Console.Write("Introduce unidad a convertir (m / s): ");
+                Console.Write("Introduce unidad a convertir (m / s / h");
                 respuesta = Console.ReadLine();
                 Console.Write("Introduce cantidad: ");
                 cant = double.Parse(Console.ReadLine());
@@ -30,6 +30,11 @@ namespace hada_p1
                 else if (respuesta == "s")
                 {
                     resultado = HadaP1.Seconds2Minutes(cant);
+                    Console.WriteLine("Son {0} minutos.", resultado);
+                }
+                else if (respuesta == "h") 
+                {
+                    resultado = HadaP1.Hours2Minutes(cant);
                     Console.WriteLine("Son {0} minutos.", resultado);
                 }
                 else
